@@ -1,0 +1,168 @@
+body {
+  position: absolute;
+}
+
+h1 {
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+  color: white;
+  padding-bottom: 50px;
+}
+
+h2 {
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 2.75rem;
+  line-height: 1.5;
+  font-weight: 800;
+}
+
+
+#title {
+  background-color: #ff4c68;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+.download-btn {
+  margin: 0 3% 5% 0;
+}
+
+.dogo {
+  width: 400px;
+  transform: rotate(25deg);
+  left: 50%;
+  position: absolute;
+  padding-left: 50px;
+}
+
+.features {
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.fas {
+  color: #ef8172;
+  font-size: 3.5rem;
+  padding-bottom: 10px;
+}
+
+.fas:hover {
+  color: #ff4c68;
+}
+
+#features {
+  text-align: center;
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.explain {
+  padding: 0 10%;
+  color: #8f8f8f;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding: 3%;
+}
+
+.press-pics {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.carousel-inner {
+  padding: 7% 15%;
+}
+
+.row {
+  padding: 3%;
+}
+
+.pricing-feature {
+  text-align: center;
+}
+
+.card-header {
+  padding: 0 0;
+}
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+}
+.cta{
+  color: white;
+  font-size: 3.5rem;
+  font-weight: 800;
+  padding: 7% 15%;
+  line-height: 1.5;
+}
+
+#footer{
+  background-color: white;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icon{
+  padding: 3%;
+}
+
+@media (max-width: 1100px) {
+
+  #title{
+    text-align: center;
+  }
+
+  .dogo {
+    position: static;
+    align-items: center;
+    transform: rotate(0);
+  }
+}
